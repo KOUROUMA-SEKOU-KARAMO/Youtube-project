@@ -1,0 +1,29 @@
+
+
+body{
+     display: grid;
+    //  grid-template-columns: 1fr 1fr  ;
+      grid-template-areas: 
+        "top-container top-container"
+        "main-container main-container"
+      ;
+
+}
+
+.top-container{
+     grid-area: top-container;
+}
+.main-container{
+     grid-area: main-container;
+     display: flex;
+     flex-grow: 1;
+     min-height: 100vh;
+    
+}
+
+.main-container-left{ 
+    //  max-width: 256px;
+}
+.main-container-right{ 
+    //  max-width: 256px;
+}

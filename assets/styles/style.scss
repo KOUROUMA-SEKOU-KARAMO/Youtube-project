@@ -1,0 +1,13 @@
+//  Importation globale du frameWork Bootstrap 
+@use "sass:map";
+
+// scss-docs-start import-stack
+// // Configuration
+// @import "../frameWork/bootstrap-5.0.2/scss/functions";
+// @import "../frameWork/bootstrap-5.0.2/scss/variables";
+// @import "../frameWork/bootstrap-5.0.2/scss/mixins";
+// @import "../frameWork/bootstrap-5.0.2/scss/utilities";
+
+@import "../scss/index";
+@import "../frameWork/bootstrap-5.0.2/scss/bootstrap.scss"; 
+

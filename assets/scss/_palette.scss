@@ -1,0 +1,32 @@
+// container palette 
+$black1: #1515;
+ $gray1: #f2f2f2;
+ $teal: teal;
+ $orange: orange;
+ $red:rgb(243, 8, 8);
+
+ $theme-custom-colors:(
+    "black1":$black1,
+    "gray1":$gray1,
+    "teal":$teal,
+     "orange":$orange,
+     "red":$red
+ );
+
+
+//   $theme-colors:map-merge($theme-custom-colors,$theme-colors );
+  @each $key, $val  in  $theme-custom-colors{
+     .bg-#{$key}{
+         background: $val!important;
+     }
+
+      .text-#{$key}{
+         color: $val !important;
+      }
+
+      .btn-#{$key}{
+         background: $val;
+      }
+  }
+
+   
