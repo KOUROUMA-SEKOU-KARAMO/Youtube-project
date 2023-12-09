@@ -14,47 +14,205 @@
 
 <body>
     <div class="top-container d-flex align-items-center w-100">
-        <nav class=" navbar-home w-100  d-flex justify-content-between align-items-center  p-1">
-            <div class="nav-left me-auto d-flex justify-content-center align-items-center  fs-2 ">
-                <i class="fa-solid fa-bars m-3 fs-3  "></i>
-                <i class="fa-brands fa-youtube text-red "></i>
-                <span class="text-black fw-bold  font-roboto">YouTube</span>
+        <nav class="nav-header-home">
+            <div class="nav-left">
+                <i class="fa-solid fa-bars"></i>
+                <i class="fa-brands fa-youtube"><span>Youtube</span></i>
             </div>
-
-            <div class="nav-form  d-flex flex-grow-1 justify-content-center align-items-center">
-                <form action="#" class="d-flex align-items-center  justify-content-between">
-                    <div class="form-group flex-grow-1 d-flex justify-content-between align-items-center  border  rounded-pill  ">
-                        <i class="fa-solid  fa-magnifying-glass"></i>
-                        <input type="text" class="border-0  d-flex flex-grow-1">
-                        <i class="fa-solid  fa-magnifying-glass"></i>
-                    </div>
-                    <i class="fa-solid fa-microphone  ms-3  rounded-circle   bg-gray1 p-3"></i>
-
-                </form>
-
+            <div class="container-nav-form">
+                <div class="nav-form">
+                    <form action="#">
+                        <i class="fa-solid fa-arrow-left d-none hidden-form"></i>
+                        <div class="list-group-input">
+                            <input type="text" name="ajout" id="ajout hidden-form">
+                            <button><i class="fa-solid fa-magnifying-glass "></i></button>
+                        </div>
+                        <i class="fa-solid fa-microphone"></i>
+                    </form>
+                </div>
             </div>
-
-            <div class="nav-right  fs-5  bg-white">
-                <i class="fa-solid fa-video me-3"></i>
+            <div class="nav-right">
+                <i class="fa-solid fa-video"></i>
                 <i class="fa-regular fa-bell"></i>
-                <d class="user ">
-                    User
-                </d>
+                <div class="profil">Profil</div>
             </div>
-
-
         </nav>
     </div>
+
+
+
     <div class="main-container w-100  d-flex ">
 
 
 
-        <div class="main-container-left">
-            main container left
-        </div>
-        <div class="main-container-right  flex-grow-1 text-orange  font-roboto">
-            main container right
+        <div class="main-container-left  ">
+            <div class="container-options d-flex flex-column ">
+                <div class="icons">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Accuil</span>
+                </div>
+                <div class="icons">
+                    <i class="fa-brands fa-tiktok"></i>
+                    <span>Shorts</span>
+                </div>
+                <div class="icons">
 
+                    <i class="fa-solid fa-shop-slash"></i>
+                    <span>Abonnement</span>
+                </div>
+                <div class="icons">
+
+                    <i class="fa-solid fa-id-card"> </i>
+                    <span>Vous</span>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="main-container-right  flex-grow-1   font-roboto">
+            <div class="top-container-main  d-flex  justify-content-center align-items-center">
+                 <ul class="w-100 nav  d-flex justify-content-center align-items-center">
+                     <li class="border rounded-3 me-2 p-0 bg-dark "><a href="#" class="nav-link  p-1 text-white">Tous</a> </li>
+                     <li class="border rounded-3 me-2 p-0 bg-gray1 "><a href="#" class="nav-link p-1 text-black   text-dark">Musique </a></li>
+                     <li class="border rounded-3 me-2 p-0 bg-gray1 "><a href="#" class="nav-link p-1 text-dark">En direct </a></li>
+                     <li class="border rounded-3 me-2 p-0 bg-gray1 "><a href="#" class="nav-link p-1 text-dark">Afrobeat</a></li>
+                     <li class="border rounded-3 me-2 p-0 bg-gray1 "><a href="#" class="nav-link p-1 text-dark">Stoïcisme</a></li>
+                     <li class="border rounded-3 me-2 p-0 bg-gray1 "><a href="#" class="nav-link p-1 text-dark">Motivation</a></li>
+                     <li class="border rounded-3 me-2 p-0 bg-gray1 "><a href="#" class="nav-link p-1 text-dark">hypnose</a></li>
+                     <li class="border rounded-3 me-2 p-0 bg-gray1 "><a href="#" class="nav-link p-1 text-dark"></a>Récitation</li>
+                     <li class="border rounded-3 me-2 p-0 bg-gray1 "><a href="#" class="nav-link p-1 text-dark"></a>Vocabulaires</li>
+                     <li class="border rounded-3 me-2 p-0 bg-gray1 "><a href="#" class="nav-link p-1 text-dark"></a>Grammaires</li>
+                     <li class="border rounded-3 me-2 p-0 bg-gray1 "><a href="#" class="nav-link p-1 text-dark"></a>comédies</li>
+                 </ul>
+                 <i class="fa-solid fa-chevron-right me-3"></i>
+
+            </div>
+
+            <div class="list-content-main mt-5">
+                 <ul class="w-100 ">
+                     <li class=".card-list  border-0 p-0 ">
+                         <div class=".card-header-list border-0 ">
+                           <a href="#">
+                       
+                            <video src="https://player.vimeo.com/external/371431151.sd.mp4?s=ce417cfb9c5465f0ac04bacddd5fab3b3157f7c9&profile_id=164&oauth2_token_id=57447761" autoplay  class="w-100 h-100 "> </video>
+                           </a>
+                         </div>
+                         <div class="card-footer-listborder-0 " >
+                             <a href="#" class="w-100 h-100  nav-link  text-dark">
+                                <p class="p-0 m-0 ">Titre de la video </p>
+                                <p class="p-0 m-0 ">Nome du site </p>
+                                <p class="p-0 m-0 text-secondary "><span>Nombre de vue </span> <span>date</span></p>
+                             </a>
+                         </div>
+                     </li>
+                     <li class=".card-list  border-0 p-0 ">
+                         <div class=".card-header-list border-0 ">
+                           <a href="#">
+                       
+                            <video src="https://player.vimeo.com/external/371431151.sd.mp4?s=ce417cfb9c5465f0ac04bacddd5fab3b3157f7c9&profile_id=164&oauth2_token_id=57447761" autoplay  class="w-100 h-100 "> </video>
+                           </a>
+                         </div>
+                         <div class="card-footer-listborder-0 " >
+                             <a href="#" class="w-100 h-100  nav-link  text-dark">
+                                <p class="p-0 m-0 ">Titre de la video </p>
+                                <p class="p-0 m-0 ">Nome du site </p>
+                                <p class="p-0 m-0 text-secondary "><span>Nombre de vue </span> <span>date</span></p>
+                             </a>
+                         </div>
+                     </li>
+                     <li class=".card-list  border-0 p-0 ">
+                         <div class=".card-header-list border-0 ">
+                           <a href="#">
+                         
+                            <video src="https://player.vimeo.com/external/371431151.sd.mp4?s=ce417cfb9c5465f0ac04bacddd5fab3b3157f7c9&profile_id=164&oauth2_token_id=57447761" autoplay  class="w-100 h-100 "> </video>
+                           </a>
+                         </div>
+                         <div class="card-footer-listborder-0 " >
+                             <a href="#" class="w-100 h-100  nav-link  text-dark">
+                                <p class="p-0 m-0 ">Titre de la video </p>
+                                <p class="p-0 m-0 ">Nome du site </p>
+                                <p class="p-0 m-0 text-secondary "><span>Nombre de vue </span> <span>date</span></p>
+                             </a>
+                         </div>
+                     </li>
+                     <li class=".card-list  border-0 p-0 ">
+                         <div class=".card-header-list border-0 ">
+                           <a href="#">
+                           
+                            <video src="https://player.vimeo.com/external/371431151.sd.mp4?s=ce417cfb9c5465f0ac04bacddd5fab3b3157f7c9&profile_id=164&oauth2_token_id=57447761" autoplay  class="w-100 h-100 "> </video>
+                           </a>
+                         </div>
+                         <div class="card-footer-listborder-0 " >
+                             <a href="#" class="w-100 h-100  nav-link  text-dark">
+                                <p class="p-0 m-0 ">Titre de la video </p>
+                                <p class="p-0 m-0 ">Nome du site </p>
+                                <p class="p-0 m-0 text-secondary "><span>Nombre de vue </span> <span>date</span></p>
+                             </a>
+                         </div>
+                     </li>
+                     <li class=".card-list  border-0 p-0 ">
+                         <div class=".card-header-list border-0 ">
+                           <a href="#">
+                       
+                            <video src="https://player.vimeo.com/external/371431151.sd.mp4?s=ce417cfb9c5465f0ac04bacddd5fab3b3157f7c9&profile_id=164&oauth2_token_id=57447761" autoplay  class="w-100 h-100 "> </video>
+                           </a>
+                         </div>
+                         <div class="card-footer-listborder-0 " >
+                             <a href="#" class="w-100 h-100  nav-link  text-dark">
+                                <p class="p-0 m-0 ">Titre de la video </p>
+                                <p class="p-0 m-0 ">Nome du site </p>
+                                <p class="p-0 m-0 text-secondary "><span>Nombre de vue </span> <span>date</span></p>
+                             </a>
+                         </div>
+                     </li>
+                     <li class=".card-list  border-0 p-0 ">
+                         <div class=".card-header-list border-0 ">
+                           <a href="#">
+                       
+                            <video src="https://player.vimeo.com/external/371431151.sd.mp4?s=ce417cfb9c5465f0ac04bacddd5fab3b3157f7c9&profile_id=164&oauth2_token_id=57447761" autoplay  class="w-100 h-100 "> </video>
+                           </a>
+                         </div>
+                         <div class="card-footer-listborder-0 " >
+                             <a href="#" class="w-100 h-100  nav-link  text-dark">
+                                <p class="p-0 m-0 ">Titre de la video </p>
+                                <p class="p-0 m-0 ">Nome du site </p>
+                                <p class="p-0 m-0 text-secondary "><span>Nombre de vue </span> <span>date</span></p>
+                             </a>
+                         </div>
+                     </li>
+                     <li class=".card-list  border-0 p-0 d-flex flex-direction-column  ">
+                         <div class=".card-header-list border-0 ">
+                           <a href="#">
+                       
+                            <video src="https://player.vimeo.com/external/371431151.sd.mp4?s=ce417cfb9c5465f0ac04bacddd5fab3b3157f7c9&profile_id=164&oauth2_token_id=57447761" autoplay  class="w-100 h-100 "> </video>
+                           </a>
+                         </div>
+                         <div class="card-footer-listborder-0 " >
+                             <a href="#" class="w-100 h-100  nav-link  text-dark">
+                                <p class="p-0 m-0 ">Titre de la video </p>
+                                <p class="p-0 m-0 ">Nome du site </p>
+                                <p class="p-0 m-0 text-secondary "><span>Nombre de vue </span> <span>date</span></p>
+                             </a>
+                         </div>
+                     </li>
+                     <li class=".card-list  border-0 p-0 ">
+                         <div class=".card-header-list border-0 ">
+                           <a href="#">
+                       
+                            <video src="https://player.vimeo.com/external/371431151.sd.mp4?s=ce417cfb9c5465f0ac04bacddd5fab3b3157f7c9&profile_id=164&oauth2_token_id=57447761" autoplay  class="w-100 h-100 "> </video>
+                           </a>
+                         </div>
+                         <div class="card-footer-listborder-0 " >
+                             <a href="#" class="w-100 h-100  nav-link  text-dark">
+                                <p class="p-0 m-0 ">Titre de la video </p>
+                                <p class="p-0 m-0 ">Nome du site </p>
+                                <p class="p-0 m-0 text-secondary "><span>Nombre de vue </span> <span>date</span></p>
+                             </a>
+                         </div>
+                     </li>
+                 </ul>
+            </div>
         </div>
 
     </div>

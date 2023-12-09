@@ -1,1 +1,22 @@
  
+.main-container-left{
+      margin-right: 20px;
+      padding: 0 10px;
+
+      @media screen and (max-width: 569px){
+         display: none;
+      }
+  .icons{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 40px;
+
+     span{
+         font-family: inherit;
+         margin-top: 5px;
+         font-size: .8rem;
+     }
+  }
+}
