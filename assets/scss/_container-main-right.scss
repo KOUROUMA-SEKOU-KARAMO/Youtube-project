@@ -4,9 +4,29 @@
  
     .top-container-main{
          position: relative;
-        ul{
+          
+
+          >div{
+            //  background: teal;
              overflow-y: hidden;
-             width: 100%;
+             position: absolute;
+              height: 40px;
+              display: flex;
+               align-items: center;
+               justify-content: center;
+
+          div{
+             flex-wrap: unset;
+            //  background: orange!important;
+             margin-top: 5px;
+             margin-bottom: 5px;
+
+             a{
+                 display: block;
+                 width: max-content;
+             }
+
+          }
         }
          .fa-chevron-right{
 
@@ -26,53 +46,50 @@
                
         }
     }
+}
 
-
-    .list-content-main{
-        width: 100%;
-      ul{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        height: max-content;
-        width: 100%;
-
-      }
-
-        li{
-            flex: 1  0 20% ;
-          margin: 10px;
+.list-content-main{
+     
+    >div{
+          width: 100%;
+           display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        .item{
+            flex: 1 20% 0 ;
           
            width: 350px;
-            height:250px;
-            list-style-type: none;
-            border-radius: 20px;
-            border: 1px solid red;
-            padding: 0!important;
-            border-radius: 20px;
-             @media screen and (max-width: 768px){
-                 margin-bottom: 30px;
-             }
+           max-width: 450px;
+           min-height: 250px;
+           border-radius: 10px;
+           box-shadow: 1px 1px 1px rgba(128, 126, 126, 0.663);
+           margin: 10px;
+           @media screen and (max-width:568px ){
+             max-width: 250px;
+           }
+
+           .item-header{
+             height: 70%;
+             width: 100%;
+           border-radius: 10px;
 
             video{
                  width: 100%;
-                 border-radius: 20px;
                  object-fit: cover;
                  object-position: center;
-
+                 border-radius: 10px;
             }
 
-            .card-header-list {
-                //  background: orange;
-                padding: 0!important;
-                border-radius: 20px 20px 0 0 ;
-                background: none;
-            }
-            .card-footer-list {
-                //  background: teal;
-                background:none ;
-            }
+           }
+
+        //    item body
+
+        .item-body{
+             padding: 10px 5px;
+        }
         }
     }
+    
+    
 }

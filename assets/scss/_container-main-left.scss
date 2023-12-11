@@ -1,5 +1,22 @@
 
+.main-container-left {
 
-.container-main-left{
-     background: #000!important;
+     .container-options {
+
+
+             .icons{
+                 
+               @media screen and  (min-width: 992px){
+                     display: flex;
+                     flex-direction:row; 
+                   align-items: center;
+                   justify-content: flex-start;
+                   i{
+                     margin-right: 3px;
+                   }
+               }
+               
+             }
+          
+     }
 }
